@@ -9,6 +9,6 @@ export const AppDataSource = new DataSource({
   database: "viatur",
   entities: ["src/entity/**/*.entity.{ts,js}"],
   logging: true,
-  // synchronize: true,
+  //synchronize: true,
   migrations: ["src/migration/**/*.ts"],
 })
