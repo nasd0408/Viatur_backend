@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "ts-node src/app.ts",
-    "dev": "nodemon --watch ./**/*.ts --exec npm start --ext ts"
+    "dev": "nodemon --watch ./**/*.ts --exec npm start --ext ts",
+    "build": "npm install"
   },
   "keywords": [],
   "author": "",
